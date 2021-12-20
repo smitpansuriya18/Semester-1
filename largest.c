@@ -1,18 +1,27 @@
 #include<stdio.h>
 void main()
 {
-	int a,b;
-	printf("enter no a=");
+	int a,b,c;
+
+	printf("enter value of a");
 	scanf("%d",&a);
-	printf("enter no b=");
+
+	printf("enter value of b");
 	scanf("%d",&b);
 
-	if(a>b)
+	printf("enter value of c");
+	scanf("%d",&c);
+
+	if(a>b && a>c)
 	{
-		printf("no a is largest");
+		printf("number a is largest");
 	}
-	if(a<b)
+	else if(b>a && b>c)
 	{
-		printf("no a is lower");
+		printf("number b is largest");
+	}
+	else 
+	{
+		printf("number c is largest");
 	}
 }

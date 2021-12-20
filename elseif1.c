@@ -1,22 +1,26 @@
 #include<stdio.h>
 void main()
 {
-	int year;
+	float bs;
 
-	printf("enter year");
-	scanf("%d",&year);
+	printf(" enter basic salary");
+	scanf("%f",&bs);
 
-	if (year%4==0 && year%100!=0)
+	if(bs>=10000 && bs<20000)
 	{
-		printf("year is leap year");
+		printf("gross salary=%f",bs+(bs*0.20)+(bs*0.80));
 	}
 
-	else if(year%400==0)
+	else if(bs>=20000 && bs<30000)
 	{
-		printf("year is leap year");
+		printf("gross salary=%f",bs+(bs*0.25)+(bs*0.90));
+	}
+	else if(bs>=30000)
+	{
+		printf("gross salary=%f",bs+(bs*0.30)+(bs*0.95));
 	}
 	else
 	{
-		printf("year is not leap year");
+		printf("enter choice up 10000 ");
 	}
 }

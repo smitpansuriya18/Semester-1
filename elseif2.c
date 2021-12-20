@@ -1,28 +1,42 @@
-#include <stdio.h>
+#include<stdio.h>
 void main()
 {
-	char ch;
+	int no1,no2,x;
 
-	printf("enter character");
-	scanf("%c",&ch);
+	printf("enter no1");
+	scanf("%d",&no1);
 
-	if(ch>='a' && ch<='z')
+	printf("enter no2");
+	scanf("%d",&no2);
+
+	printf("1=add,\n 2=sub,\n 3=mul,\n4=div,\n");
+	printf("enter basic choice=");
+	scanf("%d",&x);
+
+	if(x==1)
 	{
-		printf("small later");
+		printf("no1+no2=%d",no1+no2);
 	}
 
-	else if (ch>='A' && ch<='Z')
+	else if(x==2)
 	{
-		printf("capital later");
+		printf("no1-no2=%d",no1-no2);
 	}
-	else if (ch>='0' && ch<='9')
+
+	else if(x==3)
 	{
-		printf("Digit");
+		printf("no1*no2=%d",no1*no2);
+	}
+
+	else if(x==4)
+	{
+		printf("no1/no2=%d",no1/no2);
 	}
 
 	else
 	{
-		printf("special Character");
+		printf("enter choice between 1,2,3,4");
 	}
+
 
 }
