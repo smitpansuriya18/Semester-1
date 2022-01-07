@@ -1,0 +1,344 @@
+*{
+	box-sizing: border-box;
+}
+.maindiv{
+	font-family: sans-serif;
+
+}
+/*-----------header------------*/
+.header{
+	height: 70vh;
+	width: 100%;
+	background-image: url(images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 70vh;
+	float: left;
+
+}
+
+.header1{
+	float: left;
+	height: 10vh;
+	width: 100%;
+
+}
+.logo{
+	float: left;
+	height: 10vh;
+	width: 50%;
+	padding: 10px 0px 0px 20px;
+}
+.logo img{
+	max-height: 100%;
+	max-width: 100%;
+}
+.menu{
+	float: left;
+	/*background: gray;*/
+	height: 10vh;
+	width: 50%;
+	padding-left: 280px;
+	font-size: 12.5px;
+
+
+}
+.nav_menu{
+	float: left;
+	height: 10vh;
+	/*width: 15%;*/
+	margin: 30px 0px 0px 50px;
+
+}
+.search{
+	height: 10vh;
+	/*width: 10%;*/
+	float: left;
+	margin: 30px 0px 0px 50px;
+}
+.search img {
+	max-width: 50%;
+	max-height: 50%;
+
+}
+.header2{
+	height: 60vh;
+	width: 100%;
+	float: left;
+}
+.dis{
+	height: 60vh;
+	width: 50%;
+	padding: 80px 0px 0px 300px;
+	float: left;
+}
+.dis h2{
+	color: lightcoral;
+}
+.dis h1,p{
+	color: #fff;
+
+}
+.readmore{
+	margin-top: 40px;
+}
+.readmore a{
+	text-decoration: none;
+	border: 1px solid lightcoral;
+	padding: 10px 20px;
+	font-size: 10px;
+	color: lightcoral;
+	border-radius: 3px;
+}
+.man{
+	float: left;
+	height: 60vh;
+	width: 50%;
+	margin-top:-60px;
+	padding-left: 70px;
+}
+.man img{
+	width: 630px;
+	height: 510px;
+}
+/*-----------header------------*/
+
+
+
+/*-----------content------------*/
+.content{
+	width: 100%;
+	float: left;
+
+}
+.feature{
+	float: left;
+	width: 100%;
+
+}
+.feature-heading{
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding-top: 10px;
+}
+.feature-heading h6{
+	color: lightcoral;
+	text-align: center;
+	margin-top: 5px;
+}
+.feature-heading h1{
+	margin-bottom: 10px;
+}
+
+.features-part{
+	float: left;
+	width: 100%;
+	padding-left: 25%;
+}
+.features-a{
+	float: left;
+	border: 2px solid lightgray;
+	padding: 30px;
+	border-radius: 7px;
+	margin: 5px;
+	width: 20%;
+	text-align: center;
+
+
+}
+.features-a img{
+	max-width: 100%;
+	max-height: 100%;
+}
+.features-a p{
+	color: black;
+	margin-top: 25px;
+}
+.readmore2{
+	margin-top: 40px;
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+	float: left;	
+}
+.readmore2 a{
+	text-decoration: none;
+	border: 1px solid lightcoral;
+	padding: 10px 20px;
+	font-size: 10px;
+	color: lightcoral;
+	border-radius: 3px;
+}
+.offer{
+	background-image: url(images/disco.jpg);
+	width: 100%;	
+	background-repeat: no-repeat;
+	background-size: 100% 50vh;
+	float: left;	
+	margin-top: 50px;
+	padding: 80px;
+}
+.discount{
+	width: 90%;
+	padding-left: 270px;
+}
+.discount h1,h6{
+	color: white;
+	text-align: center;
+
+}
+.request{
+	float: left;
+	width: 100%;
+	height: 20vh;
+	text-align: center;
+}
+.request h6{
+	color: black;
+	text-align: center;
+}
+.input-detail{
+	background: hotpink ;
+	width: 20%;
+	float: left;
+	padding: 40px;
+	margin-left: 20%;
+	text-align: center ;
+}
+.input-detail .input input,textarea{
+	padding: 10px;
+	margin: 10px;
+	border-radius: 20px;
+	background: hotpink ;
+	border: 1px solid lightpink;
+	color: lightpink;
+}
+.input-detail button{
+	background: lightgoldenrodyellow;
+	padding: 10px 20px;
+	border-radius: 30px;
+}
+.ex-pic{
+	float: left;
+	width: 60%;
+}
+.ex-pic img{
+	width: 85%;
+}
+.peoplecomment{
+	height: 50vh;
+	width: 100%;
+	background-image: url(images/cli.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 50vh;
+	float: left;
+
+}
+
+.heading h1,h6{
+	text-align: center;
+	color: white;
+
+}
+.heading{
+	padding-top: 40px;
+}
+.say{
+	height: 40%;
+	width: 40%;
+	background: white;	
+	text-align: center;
+	padding: 10px;
+	margin-left: 30%;
+	margin-top: 30px;
+}
+
+.say h6{
+	color: black;	
+}
+.bar{
+	height: 10vh;
+	width: 100%;
+	background: white;
+	float: left;
+}
+
+
+
+
+
+/*----------content------------*/
+
+
+
+
+/*----------footer------------*/
+
+.footer{
+	float: left;
+
+	width: 100%;
+	background: #343434;
+	padding: 30px;	
+}
+.footer h2{
+	color: gray;
+}
+.footer h1{
+	color: lightyellow;
+}.footer h6{
+	color: lightyellow;
+}
+.ending{
+	width: 40%;
+	text-align: center;
+	margin-left: 30%;
+	float: left;
+}
+
+.extra{
+	background: white;
+	width: 60%;
+	height: 4vh;
+	margin-left: 20%;
+	border-radius: 20px;
+	float: left;
+}
+.email
+{
+	width: 70%;
+	height: 100%;
+	background: white;
+	float: left;
+	border: 0px;
+	border-radius: 20px;
+	
+}
+.subscribe{
+	width: 28%;
+	background:orange;
+	float: right;
+	margin: 3px 4px 3px 0px;
+	border-radius: 20px;
+}
+
+.ending h6,h1,h2{
+	text-align: center;
+	color: lightgray;
+}
+.copyright
+{
+	text-align: center;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/*----------footer------------*/
